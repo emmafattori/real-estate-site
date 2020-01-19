@@ -1,25 +1,57 @@
 .App {
   text-align: center;
-  background-color: aliceblue;
+  height: 100vh;
+  background-image: url(./assets/homepage-header.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
+h1{
+	text-transform: uppercase;
+	width: 65%;
+	margin: 0 auto;
+	padding: 2%;
+	font-size: 40px;
+	color: white;
+}
+
+/* Navigation Styling */
 ul{
 	display:flex;
 	justify-content: space-evenly;
+	margin: 0;
 	}
 
-	li{
-		padding: 2% 3%;
-		list-style-type: none;
+li{
+	padding: 2% 3%;
+	list-style-type: none;
+}
 
-		
-	}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+	
+}
 
-	a{
-		text-decoration: none;
-		text-transform: uppercase;
-		color: black;
-	}
+/* End of navigation styling */
 
+/* About section styling */
 
+.about__section{
+	background-color: white;
+	text-align: center;
+	width:85%;
+	margin:0 auto;
+}
+
+/* Featured Listings Styling */
+
+.featured__section{
+	background-color: white;
+	width:85%;
+	margin: 0 auto;
+	text-align: center;
+}
 
